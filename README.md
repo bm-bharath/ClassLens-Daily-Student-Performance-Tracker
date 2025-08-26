@@ -15,3 +15,7 @@ A lightweight Streamlit app to analyze daily attendance and quiz results (Yes/No
 - `q1–q4`: Yes/No/`a` (not attempted)  
 - `q5_rating`: 1–5 or blank
 
+## Quickstart (local)
+python -m venv .venv && . .venv/bin/activate # Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+streamlit run app.py
